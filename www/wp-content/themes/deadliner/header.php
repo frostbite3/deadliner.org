@@ -49,6 +49,14 @@
    });
 
    $('.our-services').click(function () {
+    selOption = this.id;
+    switch (selOption)
+    {
+       case "viz": document.getElementById('caser').options[1].selected=true; break;
+       case "land": document.getElementById('caser').options[2].selected=true; break;
+       case "korp": document.getElementById('caser').options[3].selected=true; break;
+       case "magz": document.getElementById('caser').options[4].selected=true; break;
+    }
     location.href = "#zakaz";
    });
 
@@ -77,7 +85,7 @@
       <form id="form_1" method="post">
        <input type="text" name="fio" placeholder="Введите ваше Ф.И.О." required><br> 
        <input type="text" name="connection" placeholder="Введите ваш E-mail, Skype или Viber" required><br>
-       <select name="ch">
+       <select id= "caser" name="ch">
         <option disabled selected>Выберите тип проекта</option>
         <option value="Сайт-визитка">Сайт-визитка</option>
         <option value="Лендинг-пейдж">Лендинг-пейдж</option>

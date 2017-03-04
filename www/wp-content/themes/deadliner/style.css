@@ -213,6 +213,10 @@ hr
 	margin-left: 0px !important;
 	font-size:24px;
 }
+.fw-row select
+{
+	cursor: pointer;
+}
 .fw-col-xs-12
 {
 	padding-left: 0px !important;
@@ -366,7 +370,7 @@ hr
     display: inline-block;
     font-size: 24px;
     padding: 20px;
-    min-width: 310px;
+    min-width: 250px;
     background: white;
     -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
@@ -612,6 +616,10 @@ h1
 .dm-modal button
 {
 	font-size: 16px;
+}
+.our-services
+{
+	height: 325px;
 }
 }
 @media screen and (max-width: 1368px){
